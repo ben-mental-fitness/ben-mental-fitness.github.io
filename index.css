@@ -1,0 +1,28 @@
+body {
+  background-color: lightblue;
+}
+
+/* NAVBAR */
+.navbar {
+  background: #09341E;
+  color: #FFFFFF;
+}
+
+.navbar a:link {
+  color: #FFFFFF;
+}
+
+.navbar a:hover {
+  background: #FFFFFF;
+  color: #09341E;
+}
+
+/* Caoursel */
+.carousel-inner {
+  background: linear-gradient(180deg, #09341E 0%, #F5F5F5 85.42%);
+}
+
+.carousel-inner img {
+   width: 100%;
+   height: 100%;
+ }
