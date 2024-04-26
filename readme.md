@@ -1,10 +1,14 @@
 # Ben Wainwright's Personal Website
 
-> Work in progress
+> *Work in progress*
 
-Reach out to me on [LinkedIn](https://www.linkedin.com/in/ben-wainwright-innovation/) or [Twitter](https://twitter.com/benwainwright16)
+This website is my personal portfolio.
 
-This website acts as:
-- my personal portfolio;
-- a content store and blog for side projects;
-- a testbed for functionality for [VIVE](https://www.vivemeditation.com).
+Reach out to me on [LinkedIn](hhttps://www.linkedin.com/in/ben-mental-fitness/), [Twitter](https://twitter.com/benwainwright16) or through [Remap's website](https://www.remapmentalfitness.com/contact).
+
+---
+
+**Run dev server with**
+```
+python3 -m http.server
+```
