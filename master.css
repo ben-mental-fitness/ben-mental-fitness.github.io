@@ -1,17 +1,3 @@
-.raleway-heading {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
-}
-
-.raleway-paragraph {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 200;
-  font-style: normal;
-}
-
 body {
   background-color: #ffffff;
   font-family: "Raleway", sans-serif;
@@ -46,13 +32,14 @@ a{
   background: #1b5873;
   color: #ffffff;
   padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
   margin-bottom: 10px;
-  width: 100vw;
+  width: 100%;
 }
 
 .navbar a:link {
   color: #f5f5f5;
-  padding-right: 15px;
 }
 
 .navbar a:hover {
