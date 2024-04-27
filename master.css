@@ -47,11 +47,12 @@ a{
   color: #ffffff;
   padding-bottom: 10px;
   margin-bottom: 10px;
+  width: 100vw;
 }
 
 .navbar a:link {
   color: #f5f5f5;
-  margin-right: 15px;
+  padding-right: 15px;
 }
 
 .navbar a:hover {
@@ -67,7 +68,6 @@ a{
 /* Main Block */
 .row {
   margin-top: 10px;
-  margin-left: 10px;
 }
 
 .row img {
@@ -78,12 +78,4 @@ a{
   position: relative;
   top: 10%;
   transform: translate(-10%, 10%);
-}
-
-/* Responsive layout */
-@media screen and (max-width: 400px) {
-  .navbar a {
-    float: none;
-    width: 100%;
-  }
 }

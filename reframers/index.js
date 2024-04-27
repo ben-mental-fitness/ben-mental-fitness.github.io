@@ -5,7 +5,7 @@ const createImgCard = (imgID) => {
 
   const parentDiv = document.getElementById("reframer_container");
   parentDiv.innerHTML = 
-  '<div class="col-lg-4 col-md-6 mb-4">' +
+  '<div class="col-lg-4 col-md-6 mb-6">' +
       '<div class="card h-100">' +
         '<a href="' + linkedIn_URLs[imgID-1] + '" target="_blank">' + 
           '<img class="card-img-top" src="' + imgPath + '" alt="' + alt_text[imgID-1] + '"/>' +

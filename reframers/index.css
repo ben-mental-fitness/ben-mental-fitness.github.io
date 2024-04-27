@@ -1,0 +1,6 @@
+/* Responsive layout */ 
+@media screen and (max-width: 800px) {
+  #navReframers {
+    display: none;
+  }
+}

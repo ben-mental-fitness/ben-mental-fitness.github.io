@@ -4,6 +4,7 @@
 
 <head>
 <meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="icon" type="image/png" href="/media/ben.jpg" />
 <title>Ben Wainwright | Reframers</title>
 
@@ -20,18 +21,19 @@
 
 <!-- Custom -->
 <link rel="stylesheet" href="/master.css"/>
+<link rel="stylesheet" href="./index.css"/>
 <script language = "javascript" src= "./index.js" defer="defer"> </script>
 </head>
 
 <body>
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-sm fixed-top">
-    <a href="/"><img src="/media/bw_white.png" height="75px" alt="Home page"></img></a>
+  <nav class="navbar navbar-expand fixed-top">
+    <a href="/"><img src="/media/bw_white.png" height="75px"></img></a>
     <ul class="nav navbar-nav ml-auto">
-      <li class="nav-item">
+      <li class="nav-item" id="navAbout">
         <a class="nav-link" href="/about/">About</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item" id="navReframers">
         <a class="nav-link" href="/reframers/">Reframers</a>
       </li>
     </ul>
@@ -40,7 +42,7 @@
   <div class="main">
 
     <!-- Reframers dynamically added in here -->
-      <div class="row text-center" id="reframer_container">
+      <div class="row text-center justify-content-around" id="reframer_container">
       </div>
   </div>
 
