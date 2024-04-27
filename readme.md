@@ -4,7 +4,7 @@
 
 This website is my personal portfolio.
 
-Reach out to me on [LinkedIn](hhttps://www.linkedin.com/in/ben-mental-fitness/), [Twitter](https://twitter.com/benwainwright16) or through [Remap's website](https://www.remapmentalfitness.com/contact).
+Reach out to me on [LinkedIn](https://www.linkedin.com/in/ben-mental-fitness/), [Twitter](https://twitter.com/benwainwright16) or through [Remap's website](https://www.remapmentalfitness.com/contact).
 
 ---
 
