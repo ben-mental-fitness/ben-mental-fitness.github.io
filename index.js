@@ -15,7 +15,6 @@ const load_facts = async ()=> {
 
 window.onload = async function() {
   await load_facts().then(() => {
-    console.log("ABC")
     var fact_len = facts.length - 1;
     change();
 

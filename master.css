@@ -1,6 +1,20 @@
+.raleway-heading {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.raleway-paragraph {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
 body {
-  background-color: #f5f5f5;
-  font-family: Tahoma, sans-serif;
+  background-color: #ffffff;
+  font-family: "Raleway", sans-serif;
   margin: 0;
   width: 100vw;
   height:auto;
@@ -8,11 +22,29 @@ body {
   overflow-x: hidden;
 }
 
+h1{
+  color: #1b5873;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+p{
+  color: #1b5873;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+a{
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 25px;
+}
+
 /* NAVBAR */
 .navbar {
   position: sticky;
-  background: #343e3d;
-  color: #F5F5F5;
+  background: #1b5873;
+  color: #ffffff;
   padding-bottom: 10px;
   margin-bottom: 10px;
 }
@@ -23,7 +55,7 @@ body {
 }
 
 .navbar a:hover {
-  background: #607466;
+  background: #00b1ff;
   color: #f5f5f5;
   border-radius: 10px;
 }
@@ -48,7 +80,7 @@ body {
   transform: translate(-10%, 10%);
 }
 
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+/* Responsive layout */
 @media screen and (max-width: 400px) {
   .navbar a {
     float: none;

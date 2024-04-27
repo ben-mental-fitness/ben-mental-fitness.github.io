@@ -29,7 +29,6 @@ a:active {
   text-decoration: none; 
 }
 
-
 /* Main Block */
 .main {
   position: relative;
@@ -39,23 +38,12 @@ a:active {
   transform: translate(-50%, -50%);
   padding: 2vw;
   height: 70%;
-  font-family: Tahoma, sans-serif;
   text-align: center;
 }
 
 .main img{
   height: 50vh;
   width: auto;
-}
-
-.main h1{
-  color: #343e3d;
-  font-size: 40px;
-}
-
-.main p{
-  color: #607466;
-  font-size: 25px;
 }
 
 /* Responsive layout */ 

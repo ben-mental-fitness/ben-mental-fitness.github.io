@@ -3,44 +3,45 @@
   lang="en-GB" xml:lang="en-GB">
 
 <head>
-<title>Ben Wainwright</title>
 <meta charset="UTF-8"/>
-<link rel="icon" type="image/png" href="/media/bw.png" />
-<title>VIVE</title>
+<link rel="icon" type="image/png" href="/media/ben.jpg" />
+<title>Ben Wainwright | Reframers</title>
 
-<!-- Stylesheets & Scripts -->
+<!-- Bootstrap -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"/>
-<link rel="stylesheet" href="/master.css"/>
-<link rel="stylesheet" href="/vive_labs/index.css"/>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<!-- Raleway font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<!-- Custom -->
+<link rel="stylesheet" href="/master.css"/>
+<script language = "javascript" src= "./index.js" defer="defer"> </script>
 </head>
 
 <body>
   <!-- Navbar -->
   <nav class="navbar navbar-expand-sm fixed-top">
-    <a href="/index.html"><img src="/media/bw.png" height="75px"></img></a>
+    <a href="/"><img src="/media/bw_white.png" height="75px" alt="Home page"></img></a>
     <ul class="nav navbar-nav ml-auto">
       <li class="nav-item">
-        <a class="nav-link" href="/about/index.html">About</a>
+        <a class="nav-link" href="/about/">About</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/blog/index.html">Blog &amp; Projects</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/vive-labs/index.html">VIVE Labs</a>
+        <a class="nav-link" href="/reframers/">Reframers</a>
       </li>
     </ul>
   </nav>
 
   <div class="main">
-    <div class="row d-flex justify-content-center">
-      <img src="/media/vive_logo.png" height="500px"></img>
-    </div>
-    <div class="row d-flex justify-content-center">
-      <h3><i>Coming Soon...</i></h3>
-    </div>
+
+    <!-- Reframers dynamically added in here -->
+      <div class="row text-center" id="reframer_container">
+      </div>
   </div>
 
 </body>
