@@ -4,28 +4,38 @@
 }
 
 .bio {
-  background-color: #aedcc0;
   padding: 25px;
   margin-top: 20px;
   margin-left: 2.5vw;
   width: 95vw;
-  border-radius: 25px;
-  display: flex;
-  flex-wrap:wrap;
 }
 
 #bio_img {
-  margin: 20px;
-  min-width: 300px;
-  max-height: 1000px;
-  max-width: 90%;
   border-radius: 16px;
+  min-width: 300px;
+  max-width: 100%;
+  object-fit: cover;
+  margin-top: 20px;
 }
 
 #bio_text {
-  margin: 20px;
+  margin-top: 20px;
   min-width: 300px;
-  max-width: 90%;
+}
+
+#bio_text a {
+  background-color: none;
+  color: #1b5873;
+  text-decoration: #1b5983 wavy underline;
+}
+
+#bio_text a:hover {
+  background-color: #00b1ff;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .topic_image {

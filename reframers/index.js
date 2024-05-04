@@ -39,8 +39,8 @@ const linkedIn_URLs = [
   "https://www.linkedin.com/posts/ben-mental-fitness_whats-something-that-youve-failed-at-recently-activity-7186362802935078912-qxqf",
   "https://www.linkedin.com/posts/ben-mental-fitness_i-used-to-get-stuck-in-my-head-a-lot-and-activity-7188431404957937664-jWFC",
   "https://www.linkedin.com/posts/ben-mental-fitness_something-a-lot-of-people-especially-men-activity-7189216609872269312-KPMM",
-  "https://www.linkedin.com/in/ben-mental-fitness/",
-  "https://www.linkedin.com/in/ben-mental-fitness/",
+  "https://www.linkedin.com/posts/ben-mental-fitness_if-you-want-to-be-a-good-multi-tasker-get-activity-7190605824665243648-YNR6",
+  "https://www.linkedin.com/posts/ben-mental-fitness_this-is-the-biggest-misconception-i-see-when-activity-7192055353327464448-JbIE",
   "https://www.linkedin.com/in/ben-mental-fitness/"
 ]
 
