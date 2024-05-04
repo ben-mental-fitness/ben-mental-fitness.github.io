@@ -3,11 +3,12 @@
   margin-bottom: 25px;
 }
 
+/* BIO SECTION */
 .bio {
-  padding: 25px;
+  padding: 10px;
   margin-top: 20px;
-  margin-left: 2.5vw;
-  width: 95vw;
+  margin-left: 5vw;
+  width: 90vw;
 }
 
 #bio_img {
@@ -38,25 +39,44 @@
   padding-right: 5px;
 }
 
-.topic_image {
-  justify-content: center;
-  position: relative;
-  text-align: center;
+/* PORTFOLIO SECTION */
+#portfolio_container {
+  outline: 5px solid #918ef4;
   border-radius: 25px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: 5vw;
+  width: 90vw;
+}
+
+#portfolio_selector {
+  text-align: center;
+}
+
+.topic_image {
+  min-width: 300px;
+  max-width: 100%;
+  object-fit: cover;
+  margin-top: 20px;
+}
 }
 
 .topic_text {
-  justify-content: center;
-  position: relative;
-  text-align: center;
   border-radius: 25px;
   padding: 10px;
-  border-right: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-top: 20px;
+  min-width: 300px;
 }
 
+
+/* Responsive layout */ 
+@media screen and (max-width: 800px) {
+  #navAbout {
+    display: none;
+  }
+}
+
+/* OLD */
 #human-centred-design {
   outline: 5px solid #918ef4;
   margin: 50px;
@@ -83,11 +103,4 @@
   margin: 50px;
   padding: 10px;
   border-radius: 25px;
-}
-
-/* Responsive layout */ 
-@media screen and (max-width: 800px) {
-  #navAbout {
-    display: none;
-  }
 }
