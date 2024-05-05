@@ -51,6 +51,7 @@
 
 #portfolio_selector {
   text-align: center;
+  width: 100%;
 }
 
 .topic_image {
@@ -59,9 +60,23 @@
   object-fit: cover;
   margin-top: 20px;
 }
+
+#hcd_chart {
+  min-height: 300px;
+  max-width: 85vw;
 }
 
-.topic_text {
+#all_heading, #tech_heading, #bs_heading, #entrepereneurship_heading, #purpose_heading {
+  padding: 5px;
+}
+
+#all_heading:hover, #tech_heading:hover, #bs_heading:hover, #entrepereneurship_heading:hover, #purpose_heading:hover {
+  cursor: pointer;
+  border-radius: 16px;
+  background-color: #f5f5f5;
+}
+
+#topic_text {
   border-radius: 25px;
   padding: 10px;
   margin-top: 20px;
@@ -74,33 +89,4 @@
   #navAbout {
     display: none;
   }
-}
-
-/* OLD */
-#human-centred-design {
-  outline: 5px solid #918ef4;
-  margin: 50px;
-  padding: 10px;
-  border-radius: 25px;
-}
-
-#technology {
-  outline: 5px solid #98b9f2;
-  margin: 50px;
-  padding: 10px;
-  border-radius: 25px;
-}
-
-#entrepreneurship-and-leadership {
-  outline: 5px solid #306bac;
-  margin: 50px;
-  padding: 10px;
-  border-radius: 25px;
-}
-
-#charity-and-more {
-  outline: 5px solid #141b41;
-  margin: 50px;
-  padding: 10px;
-  border-radius: 25px;
 }
