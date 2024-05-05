@@ -65,6 +65,7 @@ const config = {
     responsive: true,
     plugins: {
       legend: {
+        display : false,
         labels: {
           font: {
             size: 20
