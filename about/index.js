@@ -2,18 +2,18 @@
 
 let portfolio_chart;
 let category_colours = {
-  'All' : "rgba(57, 182, 169, ",
-  'Technology': "rgba(27, 88, 115, ",
-  'Behavioural Science' : "rgba(1, 128, 101, ",
+  'All' : "rgba(0, 0, 0, ",
+  'Technology': "rgba(57, 182, 169, ",
+  'Behavioural Science' : "rgba(27, 88, 115, ",
   'Entrepreneurship' : "rgba(1, 128, 101, ",
   'Purpose' : "rgba(81, 36, 107, "
 };
 let category_text = {
-  'All' : "<p>THIS IS EVERYTHING I GOT!</p>",
-  'Technology': "<p> From a young age, I have thought analytically which proved useful for being good at things like math or chess as a child. During secondary school, I learnt that I could apply this ability to the discipline of computer science where logic and problem solving dominate. I then went on to study Computer Science with Innovation at university.<br/><br/>At university, and through work experience, I learnt a range to work with a range and technologies to solve a range of problems. However, I started to realise that analytical thought and logic wasn't enough - more was needed. This is where the philosphies of human-centred design started to influence my work with technology.<br/><br/>Whether I'm conducting deep research that very few people will see or developing a project for lots of people, I consider the benefits of such work. There's a lot of interest in 'cutting-edge' technology, yet so much more can be done with the existing technology we have. Applying existing technology to new domains is what excites me and where a lot of opportunity lies.</p>",
-  'Behavioural Science' : "<p>THIS IS BS</p>",
+  'All' : "<p>My portfolio isn't a list of achievements - it's an insight into me as a person, my skills & what drives me forward. Each section contributes to the wider picture of how I operate.<br/><br/>Click the heading to navigate through each topic.</p>",
+  'Technology': "<p>I've always been an analytical person. When I was a child, I turnned this style of thinking to math & chess. As a teenager, my focus shifted towards computer science which I studied with innovation at university.<br/><br/>I've worked with a variety on technologies across different programming paradigms but my specialisms are cyber security & data visualisation.<br/><br/>Through experience, I've realised that analytical thought and logic isn't enough. This is where the philosphies of human-centred design started to influence my work with technology.</p>",
+  'Behavioural Science' : "<p>I'm a people watcher (but not in the creepy way). I'm really interested in how we all think, feel & behave and how that can be influenced.<br/><br/>I've spent a lot of time trying different interventions with myself to help me form desired routines & then habits - now I am explorig how I can help others do the same.</p>",
   'Entrepreneurship' : "<p>I've been interested in entrepreneurship since studying for my A-levels. Enterprise can solve a lot of problems sustainably, when it's done right.<br/><br/>When businesses are purpose-driven they look to have real positive impact on their employees, customers, the wider community and the planet. They use profit for greater impact, instead of increasing wealth inequality.<br/><br/>With entrepreneurship, I am developing my skills in leadership. In each of my roles, I look for opportunity to lead whilst learning from those that lead me.</p>",
-  'Purpose' : "<p>PURPOSE</p>"
+  'Purpose' : "<p>Intrinsic motivation & purpose is a massive part of my life. It affects my choices in business, in my personal life, my relationships & in setting myself challenges.<br/><br/>Business can be a force for good. Technology can help us personalise support for lots of people. And behavioural science can make that support effective.<br/><br/>Outside of mental fitness, I find purpose in nature & testing my limits (mostly through some form of hiking or climbing).</p>"
 };
 
 const config = {
@@ -81,8 +81,14 @@ const update_topic_text = (selected_chart) => {
   topic_text.innerHTML = category_text[selected_chart];
 }
 
+const update_container_outline = (selected_chart) => {
+  let container = document.getElementById("portfolio_container");
+  container.style.outlineColor = category_colours[selected_chart] + "1.0)";
+}
+
 const select_chart = (selected_chart) => {
   update_topic_text(selected_chart);
+  update_container_outline(selected_chart);
 
   portfolio_chart.data.datasets.forEach(dataset => {
     if (selected_chart == "All") {
