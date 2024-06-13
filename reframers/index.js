@@ -41,6 +41,9 @@ const linkedIn_URLs = [
   "https://www.linkedin.com/posts/ben-mental-fitness_something-a-lot-of-people-especially-men-activity-7189216609872269312-KPMM",
   "https://www.linkedin.com/posts/ben-mental-fitness_if-you-want-to-be-a-good-multi-tasker-get-activity-7190605824665243648-YNR6",
   "https://www.linkedin.com/posts/ben-mental-fitness_this-is-the-biggest-misconception-i-see-when-activity-7192055353327464448-JbIE",
+  "https://www.linkedin.com/posts/ben-mental-fitness_when-a-goldfish-is-ill-we-change-the-bowl-activity-7194229631326044161-R2zr",
+  "https://www.linkedin.com/posts/ben-mental-fitness_practice-makes-perfect-improvement-activity-7198585861062443008-hDTH",
+  "https://www.linkedin.com/posts/ben-mental-fitness_did-you-ever-have-one-of-those-choose-your-activity-7201122585177145344-DrMq",
   "https://www.linkedin.com/in/ben-mental-fitness/"
 ]
 
@@ -52,11 +55,14 @@ const alt_text = [
   "Your mind is a ski slope.",
   "Consistency beats intensity.",
   "Why not?",
-  "Becoming is better than being",
-  "Failing is play",
+  "Becoming is better than being.",
+  "Failing is play.",
   "When lost, pick a direction & get going.",
-  "Lean for support",
-  "A fox chasing two hares catches none",
+  "Lean for support.",
+  "A fox chasing two hares catches none.",
   "Boundaries are rules for me, not others.",
-  "When a goldfish is ill, you change the bowl."
+  "When a goldfish is ill, you change the bowl.",
+  "Repeat et reap.",
+  "A choose your own adventure brain.",
+  "If you want to go fast, go alone. If you want to go far, go together."
 ]
